@@ -1,0 +1,200 @@
+/*移动样式*/
+@media only screen and (max-width: 760px){
+/*幻灯片 */
+  .lubo{ width: 100%;clear: both; position: relative;}
+  .lubo_box{ position: relative; width: 100%; }
+  .lubo_box li{ float: left;position: absolute; top: 0; left: 0; width: 100%; opacity: 0;filter:alpha(opacity=0);}
+  .lubo_box li a{ display: block;width: 100%;  height: 100%;background-size:100%;background-repeat: no-repeat}
+
+  .lubo_box li img{ width: 100%;}
+
+  /*圆点*/
+  .cir_box{ overflow: hidden; position: absolute; z-index: 100;margin:0;padding: 0}
+  .cir_box li{ float: left; width:10vw; height: 5px; margin:0 5px; cursor: pointer; background: #fff; opacity: 0.8;filter:alpha(opacity=80);}
+  .cir_on{ background: #000 !important;}
+
+  /*按钮*/
+  .lubo_btn{ position: absolute; width: 100%; top:40%; display:none}
+  .left_btn, .right_btn{ width: 30px; height: 80px; background: #000;opacity: 0.8;filter:alpha(opacity=80); cursor: pointer; color: #fff; line-height: 80px; font-size: 30px; text-align: center;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+  .left_btn{ float: left;}
+  .right_btn{ float: right;}
+
+
+/*幻灯片END*/    
+.biz {
+    padding: 0 .53333rem
+}
+.biz div {
+    font-size: .32rem;
+    color: #666
+}
+.hs-section{ color: #1a1a1a!important;    position: relative;
+    padding-bottom: .26667rem;
+    font-size: .53333rem!important;
+    line-height: 1.2;
+    font-weight: 700}
+.hs-section::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1.44rem;
+    height: .10667rem;
+}    
+.hs-section--dark::after {
+    background-color: #247dff;
+}
+.hs-col-11{
+    margin-top: .53333rem;
+    background: #fff;
+    border-bottom-left-radius: .21333rem;
+    border-bottom-right-radius: .21333rem;
+}    
+
+.hs-col h4 {
+    text-align: center;
+    padding: .26667rem 0;
+    font-size: .32rem;
+}   
+.block-case {
+    padding: 1.06667rem .53333rem;
+} 
+.text-center
+    {    font-size: .53333rem !important;
+    line-height: 1.2;
+    font-weight: 700;position: relative;
+padding-bottom: .26667rem;
+font-size: .53333rem !important;
+line-height: 1.2;
+font-weight: 700; margin: 5vw;
+}
+.home-vision__desc{ margin:0 5vw}
+.border {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1.44rem;
+    height: .10667rem;background-color: #247dff;
+}
+.block-case .casetab {
+    margin-top: .53333rem;
+}    
+.block-case .case-tab{   margin-top: .53333rem; }
+.block-case .case-tab li {
+    font-size: .34667rem;
+    background: #fff;
+    color: #000;
+    height: .66667rem;
+    line-height: .66667rem;
+    margin-right: .13333rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    margin-bottom: .13333rem;
+} 
+    
+.block-case .case-tab .activetab {
+    background: #2667ff !important;
+    color: #fff !important;
+    padding-left: .13333rem;
+    padding-right: .13333rem;
+    text-align: center;
+}    
+
+  
+.tech-adv {
+    background: url(../images/tech_adv_bg.da580bc.jpg) no-repeat;
+    padding: 1.06667rem .53333rem;
+} 
+.hs-section--light span{color: #fff;}
+.hs-section {
+    position: relative;
+    padding-bottom: .26667rem;
+    font-size: .53333rem !important;
+    line-height: 1.2;
+    font-weight: 700;
+} 
+.hs-section--light::after {
+    background-color: #fff;
+}
+.hs-flex{margin: 0;
+align-items: center;
+margin-top: .53333rem;}  
+.hs-col .tech-adv__thumb {width: 2.66667rem; display:line}  
+.tech-adv__info {color: #fff;margin: 0; display:inline;float:right;width:70%;text-align:left} 
+.tech-adv__info .tech-adv__title{text-align:left;}
+.index_one ul{padding:0; margin:0; text-align:center;}	
+.index_one li{width:43%; display:inline-block; box-shadow: 0 3px 6px rgba(0,0,0,.16); padding:2vw;margin:2vw; border-radius:1%;height:
+20vh; overflow:hidden; font-size:3vw;}
+.index_one li span{font-size:3.73vw;color:#1a1a1a;font-weight: bolder}
+.index_one li p{overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.index_one li img{width:50%; display:block;clear:both; margin:0 auto}
+.mt60{margin-top:5vw;}
+.solution-card{text-align:center;width:48%;    background-color: #fff;
+    color: #1a1a1a;box-shadow: 0 3px 6px rgba(0,0,0,.16); display:inline-block;overflow:hidden; padding:3vw}
+.solution-card__desc{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }	
+.home-vision__list{ margin-top:4vw}
+.consult-btn,.news-foot{margin:2vw auto; text-align:center; }
+.news{padding: 1.06667rem .53333rem;}
+.news-head{    position: relative;
+    padding-bottom: .26667rem;
+    font-size: .53333rem !important;
+    line-height: 1.2;
+    font-weight: 700;}
+ 
+.news-category {
+    margin: .53333rem 0 .4rem;
+    padding: .16rem;
+    align-items: center;
+}
+.news-category button{
+    font-size: .34667rem;
+    margin-right: .22667rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: .66667rem;
+    padding: .16rem;
+    float: left;
+    margin-bottom: .13333rem;
+}
+.news-category .active{    background: #2667ff;
+    color: #fff;
+    padding: .16rem;
+}
+.news .tab{ clear:both;margin:0; padding:0;width:100%}
+.news .tab .news-card {
+    background: #fff;
+    box-shadow: 0 .02667rem .10667rem rgba(0,0,0,.12);
+    margin-bottom: .53333rem;
+}
+.news .tab .news-card__title {
+    padding: .26667rem .53333rem;
+    font-size: .48rem;
+}
+.news .tab .news-card__brief {
+    color: #666;
+    padding: 0 .53333rem .66667rem;
+    font-size: .32rem;
+    height: .26667rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*幻灯片 */
+#flash{width:100%;height:40vw;position: relative;}
+#flash #play{width:100%;height:40vw;list-style: none;position:absolute;top:0px;left:0px;padding: 0; margin: 0}
+#flash #play li{display: none;position:absolute;top:0px;left:0px;width: 100%}
+#flash #play li img{width: 100%}
+#button{position: absolute;bottom:20px;left:45%;list-style: none;padding: 0; margin: 0}
+#button li{margin-left: 10px;float: left;}
+#button li div{width:12px;height: 12px;background:#DDDDDD;border-radius: 6px;cursor: pointer;}
+#prev{width:40px;height:63px;background:url("../images/beijing.png") 0px 0px;position: absolute;top:15vw;left:2vw;z-index: 1000; }
+#next{width:40px;height:63px;background:url(../images/beijing.png) -40px 0px;position: absolute;top:15vw;right:2vw;z-index: 1000;}
+#prev:hover{background:url(../images/beijing.png) 0px -62px; }
+#next:hover{background:url(../images/beijing.png) -40px -62px;}
+/*幻灯片止*/	
+/*end*/
+}
